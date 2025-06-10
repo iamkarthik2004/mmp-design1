@@ -3,8 +3,10 @@ import logo from './assets/logo.png';
 import demoProfile from './assets/Demo.png';
 import backbutton from './assets/back-icon.png';
 import profilepic from './assets/profile.png';
-
-
+import droppedIcon from './assets/dropped.png';
+import blacklistIcon from './assets/blacklist.png';
+import exportIcon from './assets/export.png';
+import addIcon from './assets/add.png';
 
 function App() {
   return (
@@ -84,10 +86,22 @@ function App() {
 
       {/* Action Buttons */}
       <div className="button-row">
-        <button className="btn purple">Dropped Users</button>
-        <button className="btn pink">Blacklisted Users</button>
-        <button className="btn grey">Export Data</button>
-        <button className="btn new2green">Add Guest</button>
+        <button className="btn purple">
+          Dropped Users
+          <img src={droppedIcon} alt="Dropped" className="btn-icon" />
+        </button>
+        <button className="btn pink">
+          Blacklisted Users
+          <img src={blacklistIcon} alt="blacklist" className="btn-icon" />
+        </button>
+        <button className="btn grey">
+          Export Data
+          <img src={exportIcon} alt="export" className="btn-icon" />
+        </button>
+        <button className="btn new2green">
+          Add Guest
+          <img src={addIcon} alt="add" className="btn-icon" />
+        </button>
       </div>
 
       {/*Guest List and Search Bar*/}
