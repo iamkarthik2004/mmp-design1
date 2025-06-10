@@ -7,6 +7,8 @@ import droppedIcon from './assets/dropped.png';
 import blacklistIcon from './assets/blacklist.png';
 import exportIcon from './assets/export.png';
 import addIcon from './assets/add.png';
+import hoomans from './assets/hoomans.png';
+
 
 function App() {
   return (
