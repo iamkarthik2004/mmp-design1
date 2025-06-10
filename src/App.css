@@ -403,6 +403,20 @@ body{
   transition: 0.3s ease;
 }
 
+/* Edit, Tick, Dollar, Ticket Icons*/
+.action-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.action-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
 
 /*Page Footer*/
 .page-footer{
