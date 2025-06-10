@@ -261,6 +261,9 @@ function App() {
       </div>
 
       {/*Logo and Icons*/}
+      <div className="hooman-logo-container">
+        <img src={hoomans} alt="Hoomans Logo" className="hooman-logo" />
+      </div>
       
 
     </div>
