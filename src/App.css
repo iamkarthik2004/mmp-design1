@@ -113,6 +113,26 @@ body{
   color: white;    
 }
 
+/* At a Glance and Last Registered */
+.glance-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: #ccc;
+  font-size: 20px;
+}
+
+.glance-text {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.last-registered {
+  font-weight: bold;
+  color: #ccc;
+}
+
 /*Info Bar*/
 /*80 Unique Guests*/
 .green{
