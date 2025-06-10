@@ -242,6 +242,14 @@ body{
   box-shadow: 0 0 10px currentColor;
 }
 
+/*Action Button Icons*/
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 /* Buttons Text colors and shadow glow*/
 .btn.purple {
   color: #ffffff;
