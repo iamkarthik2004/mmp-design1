@@ -60,6 +60,12 @@ function App() {
         <span className="tab">Child Events</span>
       </nav>
 
+      {/* At a Glance and Last Registered */}
+      <div className="glance-bar">
+        <span className="glance-text">At a Glance</span>
+        <span className="last-registered">Last Registered 1st May at 7:42 PM</span>
+      </div>
+
       {/* Info Bar */}
       <div className="info-bar">
         <div className="info-top-row">
