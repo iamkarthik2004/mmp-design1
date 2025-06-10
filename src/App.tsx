@@ -8,7 +8,10 @@ import blacklistIcon from './assets/blacklist.png';
 import exportIcon from './assets/export.png';
 import addIcon from './assets/add.png';
 import hoomans from './assets/hoomans.png';
-
+import InstaIcon from './assets/instagram.png';
+import LinkedinIcon from './assets/linkedin.png';
+import TwitterIcon from './assets/twitter.png';
+import TelegramIcon from './assets/telegram.png';
 
 function App() {
   return (
@@ -262,12 +265,19 @@ function App() {
         </div>
       </div>
 
-      {/*Logo and Icons*/}
+      {/*Hooman Logo*/}
       <div className="hooman-logo-container">
         <img src={hoomans} alt="Hoomans Logo" className="hooman-logo" />
       </div>
-      
 
+      {/*Social Meida Icon Logo*/}
+      <div className="social-logo-icon">
+        <img src={InstaIcon} alt="Insta Logo" className="insta-logo" />
+        <img src={LinkedinIcon} alt="Linkedin Logo" className="linkedin-logo" />
+        <img src={TwitterIcon} alt="Twitter Logo" className="twitter-logo" />
+        <img src={TelegramIcon} alt="Telegram Logo" className="telegram-logo" />
+      </div>
+      
     </div>
   );
 }
