@@ -419,5 +419,13 @@ body{
     cursor: pointer
 }
 
-/*Logo and Icons*/
-
+/*Hooman Logo and Icons*/
+.hooman-logo {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  margin: 60px 0 0 0;
+}
