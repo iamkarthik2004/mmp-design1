@@ -12,6 +12,12 @@ import InstaIcon from './assets/instagram.png';
 import LinkedinIcon from './assets/linkedin.png';
 import TwitterIcon from './assets/twitter.png';
 import TelegramIcon from './assets/telegram.png';
+import editIcon from './assets/pencil.png';
+import tickIcon from './assets/tick.png';
+import dollarIcon from './assets/dollar1.png';
+import ticketIcon from './assets/ticket.png';
+import notickIcon from './assets/notick.png';
+import greenticketIcon from './assets/greenticket.png';
 
 function App() {
   return (
@@ -132,126 +138,121 @@ function App() {
       <div className="guest-section">
         <div className="guest-header">
           <h2>Recent Guests (30)</h2>
-          
           <div className="guest-filters">
             <button className="select-multiple">Select Multiple</button>
-            
             <select className="dropdown">
               <option>Checked In | </option>
             </select>
-            
             <select className="dropdown">
               <option>Approval Status | </option>
             </select>
-            
             <select className="dropdown">
               <option>Registration Status | </option>
             </select>
-            </div>
+          </div>
         </div>
 
-        <div className="guest-table">          
-
-          {/* Guest row Names */}
+        <div className="guest-table">
           <div className="guest-list-container">
-          <div className="guest-row">
-            <span>Ananthu M P</span>
-            <span>chn21ec019</span>
-            <span>5 days ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Aro Ann</span>
-            <span>Aroann23</span>
-            <span>1 week ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Ananthu M P</span>
-            <span>chn21ec019</span>
-            <span>2 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Ananthu M P</span>
-            <span>ananthu.mp333</span>
-            <span>2 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Ananthu M P</span>
-            <span>chn21ec019</span>
-            <span>2 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Aswin Asok</span>
-            <span>aswinasokofficial</span>
-            <span>4 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Ananthu MP</span>
-            <span>chn21ec019</span>
-            <span>4 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Aswin Asok</span>
-            <span>aswinasokofficial</span>
-            <span>4 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span>
-          </div>
-          <div className="guest-row">
-            <span>Ananthu MP</span>
-            <span>ananthunandu.magic</span>
-            <span>5 weeks ago</span>
-            <span className="actions">
-              <i className="icon-edit" />
-              <i className="icon-check" />
-              <i className="icon-dollar" />
-              <i className="icon-ticket" />
-            </span></div>
+            <div className="guest-row">
+              <span>Ananthu M P</span>
+              <span>chn21ec019</span>
+              <span>5 days ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Aro Ann</span>
+              <span>Aroann23</span>
+              <span>1 week ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Ananthu M P</span>
+              <span>chn21ec019</span>
+              <span>2 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Ananthu M P</span>
+              <span>ananthu.mp333</span>
+              <span>2 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Ananthu M P</span>
+              <span>chn21ec019</span>
+              <span>2 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Aswin Asok</span>
+              <span>aswinasokofficial</span>
+              <span>4 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Ananthu MP</span>
+              <span>chn21ec019</span>
+              <span>4 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={notickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={greenticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Aswin Asok</span>
+              <span>aswinasokofficial</span>
+              <span>4 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={notickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
+            <div className="guest-row">
+              <span>Ananthu MP</span>
+              <span>ananthunandu.magic</span>
+              <span>5 weeks ago</span>
+              <span className="actions">
+                <img src={editIcon} alt="Edit" className="action-icon" />
+                <img src={tickIcon} alt="Check" className="action-icon" />
+                <img src={dollarIcon} alt="Dollar" className="action-icon" />
+                <img src={ticketIcon} alt="Ticket" className="action-icon" />
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -283,7 +284,8 @@ function App() {
         <img src={TwitterIcon} alt="Twitter Logo" className="twitter-logo" />
         <img src={TelegramIcon} alt="Telegram Logo" className="telegram-logo" />
       </div>
-      
+
+
     </div>
   );
 }
