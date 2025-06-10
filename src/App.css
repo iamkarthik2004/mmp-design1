@@ -429,3 +429,28 @@ body{
   transition: transform 0.3s ease;
   margin: 60px 0 0 0;
 }
+
+/*Social Media Icon*/
+.social-logo-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    z-index: 9999; 
+    isolation: isolate; 
+}
+
+.social-logo-icon img {
+    width: 26px;
+    height: 26px;
+    opacity: 0.85;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-logo-icon img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+}
